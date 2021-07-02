@@ -23,10 +23,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        spinner=findViewById(R.id.spinner);
+
+
+
+    }
+}
+
+
+/*  Part one Spinner */
+
+/*
+ spinner=findViewById(R.id.spinner);
         textView = findViewById(R.id.tvv);
 
-        ArrayAdapter adp;
+ArrayAdapter adp;
         adp = new ArrayAdapter(this, android.R.layout.simple_spinner_item,country);
         adp.setDropDownViewResource(android.R.layout.simple_list_item_multiple_choice);
 
@@ -51,7 +61,4 @@ public class MainActivity extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> parent) {
 
             }
-        });
-
-    }
-}
+        });*/
