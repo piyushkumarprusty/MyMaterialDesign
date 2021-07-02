@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         MyAdapater myAdapater =  new MyAdapater(this,R.layout.item, list);
+       // OR ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(myAdapater);
 
     }
@@ -96,7 +97,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+            // Or
+    // Manual adding of array list
+            ArrayList<String> words = new ArrayList<String>();
 
+        words.add("one");
+        words.add("two");
+        words.add("three");
+        words.add("four");
+        words.add("five");
+        words.add("six");
+        words.add("seven");
+        words.add("eight");
+        words.add("nine");
+
+    ArrayAdapter<String> itemsAdapter =  new ArrayAdapter<String>(this , R.layout.list_item, words);        // android.R.layout.simple_list_item1 is replaced
+    ListView listView = (ListView)findViewById(R.id.list);
+        listView.setAdapter(itemsAdapter);
 
 
 
