@@ -17,6 +17,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 //    String country [] = { "India" , "Pakistan" , "USA" , "UAE" , "Dubai" , "Africa"};
 
     private ListView listView;
-    private List<Data> list;
+   // private List<Data> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         listView=findViewById(R.id.listv);
 
-        list = new ArrayList<>();
+        List<Data> list = new ArrayList<>();
 
         Data dat = new Data("ind", R.drawable.kk);
         list.add(dat);
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new Data("Dop",R.drawable.kk));
 
 
-        MyAdapater myAdapater =  new MyAdapater(this,R.layout.item,list);
+        MyAdapater myAdapater =  new MyAdapater(this,R.layout.item, list);
         listView.setAdapter(myAdapater);
 
     }
