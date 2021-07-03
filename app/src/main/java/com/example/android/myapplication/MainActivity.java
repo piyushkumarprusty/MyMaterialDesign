@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -97,27 +98,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-            // Or
-    // Manual adding of array list
-            ArrayList<String> words = new ArrayList<String>();
-
-        words.add("one");
-        words.add("two");
-        words.add("three");
-        words.add("four");
-        words.add("five");
-        words.add("six");
-        words.add("seven");
-        words.add("eight");
-        words.add("nine");
-
-    ArrayAdapter<String> itemsAdapter =  new ArrayAdapter<String>(this , R.layout.list_item, words);        // android.R.layout.simple_list_item1 is replaced
-    ListView listView = (ListView)findViewById(R.id.list);
-        listView.setAdapter(itemsAdapter);
-
 
 
 }
+
 
 
 /*  Part one Spinner */
@@ -152,3 +136,26 @@ ArrayAdapter adp;
 
             }
         });*/
+
+/*  Manual adding of array list */
+/*
+
+            // Or
+
+/*     ArrayList<String> words = new ArrayList<String>();
+
+        words.add("one");
+        words.add("two");
+        words.add("three");
+        words.add("four");
+        words.add("five");
+        words.add("six");
+        words.add("seven");
+        words.add("eight");
+        words.add("nine");
+
+    ArrayAdapter<String> itemsAdapter =  new ArrayAdapter<String>(this , R.layout.list_item, words);        // android.R.layout.simple_list_item1 is replaced
+    ListView listView = (ListView)findViewById(R.id.list);
+        listView.setAdapter(itemsAdapter);
+
+*/
