@@ -100,6 +100,7 @@ public class ToastyUse extends AppCompatActivity implements View.OnClickListener
 
                 break;
 
+
         }
     }
 }
