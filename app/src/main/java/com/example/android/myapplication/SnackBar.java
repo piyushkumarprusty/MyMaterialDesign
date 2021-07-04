@@ -3,6 +3,7 @@ package com.example.android.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class SnackBar extends AppCompatActivity {
 
@@ -10,5 +11,18 @@ public class SnackBar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_snack_bar);
+
     }
+
+    public void bt1(View view) {
+
+
+    }
+
+    public void tv1(View view) {
+
+
+    }
+
+
 }
