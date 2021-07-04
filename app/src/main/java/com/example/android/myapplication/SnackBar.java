@@ -21,26 +21,20 @@ public class SnackBar extends AppCompatActivity {
     }
 
     public void bt1(View view) {
-       // Snackbar.make(view, "Clicked on button!", Snackbar.LENGTH_SHORT).show();
-        Snackbar.make(view, " Please check ur internet connection", Snackbar.LENGTH_SHORT).setAction("retry", new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Snackbar.make(view, " Internet Available!", Snackbar.LENGTH_SHORT).show();
+        Snackbar.make(view, "Clicked on button!", Snackbar.LENGTH_SHORT).show();
 
-            }
-        });
 
 
     }
 
     public void tv1(View view) {
-//        Snackbar.make(view, " Please check ur internet connection", Snackbar.LENGTH_SHORT).setAction("retry", new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Snackbar.make(view, " Internet Available!", Snackbar.LENGTH_SHORT).show();
-//
-//            }
-//        });
+        Snackbar.make(view, " Please check ur internet connection", Snackbar.LENGTH_SHORT).setAction("retry", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(v, " Internet Available!", Snackbar.LENGTH_SHORT).show();
+
+            }
+        }).show();
 
     }
 
