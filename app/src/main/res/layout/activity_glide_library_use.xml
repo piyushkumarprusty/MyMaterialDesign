@@ -4,13 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Glide_LibraryUse">
 
     <ImageView
         android:id="@+id/imageViewg"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_weight="1"
+        android:background="#c1c1c1"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="250dp"
         android:background="#c1c1c1"
         />
 </LinearLayout>
