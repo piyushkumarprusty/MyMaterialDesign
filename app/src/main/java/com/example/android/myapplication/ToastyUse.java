@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import es.dmoral.toasty.Toasty;
 
-public class ToastyUse extends AppCompatActivity {
+public class ToastyUse extends AppCompatActivity implements View.OnClickListener {
     Button btn1, btn2, btn3, btn4, btn5, btn6;
 
 
@@ -24,43 +24,82 @@ public class ToastyUse extends AppCompatActivity {
         btn5 = findViewById(R.id.button6);
         btn6 = findViewById(R.id.button7);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+//        btn1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, "Success!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+//        btn2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, "There some Error!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+//        btn3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, " Its Normal!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+//        btn4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, "Blast warning!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+//        btn5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, "Got Info!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+//        btn6.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toasty.success(ToastyUse.this, "Here Details!", Toasty.LENGTH_SHORT, true).show();
+//            }
+//        });
+
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+        btn3.setOnClickListener(this);
+        btn4.setOnClickListener(this);
+        btn5.setOnClickListener(this);
+        btn6.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        switch (v.getId()) {
+
+            case R.id.button2:
                 Toasty.success(ToastyUse.this, "Success!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+                break;
+            case R.id.button3:
                 Toasty.success(ToastyUse.this, "There some Error!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+                break;
+            case R.id.button4:
                 Toasty.success(ToastyUse.this, " Its Normal!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+                break;
+            case R.id.button5:
                 Toasty.success(ToastyUse.this, "Blast warning!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+                break;
+            case R.id.button6:
                 Toasty.success(ToastyUse.this, "Got Info!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+                break;
+            case R.id.button7:
                 Toasty.success(ToastyUse.this, "Here Details!", Toasty.LENGTH_SHORT, true).show();
-            }
-        });
 
+                break;
 
+        }
     }
 }
