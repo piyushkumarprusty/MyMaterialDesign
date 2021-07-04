@@ -9,7 +9,7 @@ import android.widget.Button;
 import es.dmoral.toasty.Toasty;
 
 public class ToastyUse extends AppCompatActivity {
-Button btn1,btn2,btn3,btn4,btn5,btn6;
+    Button btn1, btn2, btn3, btn4, btn5, btn6;
 
 
     @Override
@@ -27,8 +27,40 @@ Button btn1,btn2,btn3,btn4,btn5,btn6;
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toasty.success(ToastyUse.this , "Success!" , Toasty.LENGTH_SHORT,true).show();
+                Toasty.success(ToastyUse.this, "Success!", Toasty.LENGTH_SHORT, true).show();
             }
         });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toasty.success(ToastyUse.this, "There some Error!", Toasty.LENGTH_SHORT, true).show();
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toasty.success(ToastyUse.this, " Its Normal!", Toasty.LENGTH_SHORT, true).show();
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toasty.success(ToastyUse.this, "Blast warning!", Toasty.LENGTH_SHORT, true).show();
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toasty.success(ToastyUse.this, "Got Info!", Toasty.LENGTH_SHORT, true).show();
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toasty.success(ToastyUse.this, "Here Details!", Toasty.LENGTH_SHORT, true).show();
+            }
+        });
+
+
     }
 }
