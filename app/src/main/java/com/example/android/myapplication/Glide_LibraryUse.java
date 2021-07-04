@@ -20,7 +20,9 @@ public class Glide_LibraryUse extends AppCompatActivity {
         imageViewp = findViewById(R.id.imageViewp);
 
         Glide.with(this).load("https://unsplash.com/photos/aKbNRT-PKqQ").placeholder(R.drawable.kk).into(imageViewg);
-        Picasso.get().load("https://raw.githubusercontent.com/square/picasso/master/website/static/sample.png").into(imageViewp);
+        Picasso.get().load("https://raw.githubusercontent.com/square/picasso/master/website/static/sample.png")
+                .placeholder(R.drawable.kk)
+                .into(imageViewp);
 
     }
 }
