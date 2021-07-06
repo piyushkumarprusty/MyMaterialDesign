@@ -1,4 +1,4 @@
-  package com.example.android.myapplication;
+package com.example.android.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,25 +25,25 @@ public class openUrlUsingIntent extends AppCompatActivity {
         youtube = findViewById(R.id.youtube);
 
         github.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            gotoUrl("https://github.com/piyushkumarprusty");
-        }
-    });
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://github.com/piyushkumarprusty");
+            }
+        });
 
         unslapsh.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            gotoUrl("https://www.udemy.com/");
-        }
-    });
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.udemy.com/");
+            }
+        });
 
         youtube.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            gotoUrl("https://www.youtube.com/");
-        }
-    });
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.youtube.com/");
+            }
+        });
 
 
     }
