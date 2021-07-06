@@ -17,6 +17,7 @@ Button b;
         setContentView(R.layout.activity_context_menu);
 
         b = findViewById(R.id.b1);
+        registerForContextMenu(b);
     }
 
 
