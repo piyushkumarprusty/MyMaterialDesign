@@ -8,7 +8,8 @@ import android.widget.Button;
 
 import es.dmoral.toasty.Toasty;
 
-public class ToastyUse extends AppCompatActivity implements View.OnClickListener {
+public class
+ToastyUse extends AppCompatActivity implements View.OnClickListener {
     Button btn1, btn2, btn3, btn4, btn5, btn6;
 
 
