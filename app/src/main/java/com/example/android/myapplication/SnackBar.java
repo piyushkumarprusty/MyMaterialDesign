@@ -19,6 +19,7 @@ public class SnackBar extends AppCompatActivity {
 
 
     }
+        /*  Ulternative of toast */
 
     public void bt1(View view) {
         Snackbar.make(view, "Clicked on button!", Snackbar.LENGTH_SHORT).show();

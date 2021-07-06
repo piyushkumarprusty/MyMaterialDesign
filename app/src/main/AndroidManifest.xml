@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".openUrlUsingIntent"></activity>
+        <activity android:name=".Arrayadapter"></activity>
+        <activity android:name=".openUrlUsingIntent" />
         <activity android:name=".Glide_LibraryUse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
