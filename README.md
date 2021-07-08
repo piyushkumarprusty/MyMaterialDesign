@@ -13,6 +13,7 @@ All design and core concepts code in this repo u can get and use it
 <img src="https://user-images.githubusercontent.com/83058841/124472189-71a20b00-ddbb-11eb-83d4-38206398bace.png" width="280" height="480">
 <H3>5. USE OF CONTEXT MENU WITH ITS CODE </h3>
 <img src="https://user-images.githubusercontent.com/83058841/124648132-7dbdc380-deb4-11eb-8237-4bfc036c6f4b.png" width="280" height="480">
+<H3>5. USE OF OPTION MENU WITH ITS CODE </h3>
 
 
 
