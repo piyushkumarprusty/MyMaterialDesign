@@ -27,7 +27,7 @@ public class AnimationImg extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                YoYo.with(Techniques.BounceInDown).duration(7000).repeat(0).playOn(img);
+                YoYo.with(Techniques.FadeOutLeft).duration(7000).repeat(0).playOn(img);
             }
         });
     }
