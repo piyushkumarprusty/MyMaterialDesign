@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class AnimationImg extends AppCompatActivity {
 
     ImageView img;
@@ -24,6 +27,7 @@ public class AnimationImg extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                YoYo.with(Techniques.BounceInDown).duration(7000).repeat(0).playOn(img);
             }
         });
     }
