@@ -13,23 +13,5 @@
         android:layout_height="280dp"
         android:layout_gravity="center"
 
-        /> <ViewFlipper
-        android:id="@+id/flipper"
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:layout_gravity="center"
-
-        /> <ViewFlipper
-        android:id="@+id/flipper"
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:layout_gravity="center"
-
-        /> <ViewFlipper
-        android:id="@+id/flipper"
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:layout_gravity="center"
-
         />
 </LinearLayout>
