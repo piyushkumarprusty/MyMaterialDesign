@@ -15,6 +15,8 @@ public class SliderApp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider_app);
         //getActionBar().hide();
+       // ().getActionBar().hide();
+
         int imgarray[] = {R.drawable.pic17, R.drawable.pic7, R.drawable.pic6};
 
         flipper = findViewById(R.id.flipper);
