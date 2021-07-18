@@ -7,11 +7,23 @@
     android:orientation="vertical"
     tools:context=".SliderApp">
 
-    <ViewFlipper
-        android:id="@+id/flipper"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:layout_gravity="center"
+        android:layout_height="290dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="20dp"
+        app:cardBackgroundColor="#9771CD"
+        >
 
-        />
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
