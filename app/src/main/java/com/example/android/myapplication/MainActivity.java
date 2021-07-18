@@ -62,7 +62,6 @@ public class            MainActivity extends AppCompatActivity {
         MyAdapater myAdapater =  new MyAdapater(this,R.layout.item, list);
        // OR ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(myAdapater);
-
     }
 
 
@@ -91,8 +90,6 @@ public class            MainActivity extends AppCompatActivity {
             ImageView im = convertView.findViewById(R.id.iv);
             tv.setText(list.get(position).getName());
             im.setImageResource(list.get(position).getImage());
-
-
             return convertView ;
         }
     }

@@ -10,7 +10,8 @@ import com.bumptech.glide.Glide;
 import com.squareup.picasso.Picasso;
 
 public class Glide_LibraryUse extends AppCompatActivity {
-    ImageView imageViewg ,  imageViewp  ;
+    ImageView imageViewg, imageViewp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,4 +26,8 @@ public class Glide_LibraryUse extends AppCompatActivity {
                 .into(imageViewp);
 
     }
+
+
+
+
 }

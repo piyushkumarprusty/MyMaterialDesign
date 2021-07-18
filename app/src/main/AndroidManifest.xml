@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".AnimationImg"></activity>
         <activity android:name=".ContextMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".openUrlUsingIntent" />
-        <activity android:name=".Glide_LibraryUse"></activity>
+        <activity android:name=".Glide_LibraryUse" />
         <activity android:name=".ToastyUse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
