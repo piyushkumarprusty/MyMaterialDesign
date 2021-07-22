@@ -44,7 +44,7 @@ public class CustomToasty extends AppCompatActivity {
                 TextView tv =layout.findViewById(R.id.t1);
                 tv.setText("Custom Toast Demo");
 
-                Toast toast = new (getApplicationContext());
+                Toast toast = new Toast(getApplicationContext());
                 toast.setView(layout);
                 toast.setDuration(Toast.LENGTH_LONG);
                 toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
