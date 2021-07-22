@@ -9,7 +9,7 @@ import android.widget.ViewFlipper;
 public class SliderApp extends AppCompatActivity {
 
     ViewFlipper flipper;
-
+                    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

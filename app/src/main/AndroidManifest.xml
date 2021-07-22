@@ -11,35 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SliderApp"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".SliderApp"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".AnimationImg">
 
         </activity>
         <activity android:name=".ContextMenu"></activity>
         <activity android:name=".Arrayadapter">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".openUrlUsingIntent" />
         <activity android:name=".Glide_LibraryUse" />
         <activity android:name=".ToastyUse">
+        </activity>
+        <activity android:name=".SnackBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SnackBar" />
         <activity android:name=".MainActivity" />
     </application>
 

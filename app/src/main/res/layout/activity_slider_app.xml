@@ -10,10 +10,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="290dp"
-        app:cardCornerRadius="30dp"
         android:elevation="20dp"
-        app:cardBackgroundColor="#9771CD"
-        >
+        app:cardBackgroundColor="#C5124F"
+        app:cardCornerRadius="30dp">
 
         <ViewFlipper
             android:id="@+id/flipper"
@@ -22,7 +21,6 @@
             android:layout_gravity="center"
 
             />
-
 
 
     </androidx.cardview.widget.CardView>
