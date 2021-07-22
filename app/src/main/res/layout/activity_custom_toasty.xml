@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Taosty.CustomToasty">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:elevation="100dp"
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
