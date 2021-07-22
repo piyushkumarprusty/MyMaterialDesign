@@ -11,30 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name="recyclerview.RecyclerView"></activity>
         <activity android:name=".Taosty.CustomToasty">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".SliderApp"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-
-        </activity>
-        <activity android:name=".AnimationImg">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".AnimationImg"></activity>
         <activity android:name=".ContextMenu" />
-        <activity android:name=".Arrayadapter"></activity>
+        <activity android:name=".Arrayadapter" />
         <activity android:name=".openUrlUsingIntent" />
         <activity android:name=".Glide_LibraryUse" />
-        <activity android:name=".Taosty.ToastyUse">
-
-        </activity>
-        <activity android:name=".Taosty.SnackBar"></activity>
+        <activity android:name=".Taosty.ToastyUse"></activity>
+        <activity android:name=".Taosty.SnackBar" />
         <activity android:name=".MainActivity" />
     </application>
 
