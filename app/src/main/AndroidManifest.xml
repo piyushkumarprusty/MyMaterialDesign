@@ -25,14 +25,15 @@
         </activity>
         <activity android:name=".openUrlUsingIntent" />
         <activity android:name=".Glide_LibraryUse" />
-        <activity android:name=".ToastyUse">
-        </activity>
-        <activity android:name=".SnackBar">
+        <activity android:name=".Taosty.ToastyUse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Taosty.SnackBar">
+
         </activity>
         <activity android:name=".MainActivity" />
     </application>

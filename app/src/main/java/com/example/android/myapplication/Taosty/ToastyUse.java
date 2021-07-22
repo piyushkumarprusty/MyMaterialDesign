@@ -1,10 +1,12 @@
-package com.example.android.myapplication;
+package com.example.android.myapplication.Taosty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.android.myapplication.R;
 
 import es.dmoral.toasty.Toasty;
 
