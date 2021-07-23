@@ -10,12 +10,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.myapplication.R;
 
-public class myAdapter extends RecyclerView.Adapter {
-
+    public class myAdapter extends RecyclerView.Adapter {
+         
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
         return null;
+
     }
 
     @Override
