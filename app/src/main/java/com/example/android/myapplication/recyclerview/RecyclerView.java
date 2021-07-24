@@ -19,6 +19,7 @@ public class RecyclerView extends AppCompatActivity {
         rcv =  findViewById(R.id.rcl);
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
-
+String arr[] ={"kiki","miki","liki","tuki","niku","kri","pri","oru","sabi","tobi","logi","mhtu","samb","ouy",};
+        rcv.setAdapter(new myAdapter(arr));
     }
 }
