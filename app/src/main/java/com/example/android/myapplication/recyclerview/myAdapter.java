@@ -12,31 +12,31 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.myapplication.R;
 
-    public class myAdapter extends RecyclerView.Adapter<myAdapter.viewHolder> {
+public class myAdapter extends RecyclerView.Adapter<myAdapter.viewHolder> {
 
-        String data[];
+    String data[];
 
-        public myAdapter(String[] data) {
-            this.data = data;
-        }
+    public myAdapter(String[] data) {
+        this.data = data;
+    }
 
-        @NonNull
-        @Override
-        public viewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
-            LayoutInflater inflater =LayoutInflater.from(parent.getContext());
-            View view =inflater.inflate(R.layout.singlelayout,parent,false);
-            return  new viewHolder(view);
-        }
+    @NonNull
+    @Override
+    public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        View view = inflater.inflate(R.layout.singlelayout, parent, false);
+        return new viewHolder(view);
+    }
 
-        @Override
-        public void onBindViewHolder(@NonNull myAdapter.viewHolder holder, int position) {
+    @Override
+    public void onBindViewHolder(@NonNull myAdapter.viewHolder holder, int position) {
+        holder.tv.setText(data[position]);
+    }
 
-        }
-
-        @Override
-        public int getItemCount() {
-            return 0;
-        }
+    @Override
+    public int getItemCount() {
+        return data.length;
+    }
 
 //        @NonNull
 //    @Override
@@ -64,7 +64,7 @@ import com.example.android.myapplication.R;
             super(itemView);
 
             img = itemView.findViewById(R.id.img11);
-            tv =itemView.findViewById(R.id.t12);
+            tv = itemView.findViewById(R.id.t12);
 
         }
     }

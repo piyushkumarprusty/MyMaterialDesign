@@ -19,5 +19,6 @@ public class RecyclerView extends AppCompatActivity {
         rcv =  findViewById(R.id.rcl);
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
+
     }
 }
