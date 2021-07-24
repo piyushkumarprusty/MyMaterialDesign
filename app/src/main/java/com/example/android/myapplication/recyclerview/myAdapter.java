@@ -30,22 +30,6 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.viewHolder> {
         //View view = LayoutInflater.from(context).inflate(R.layout.sample_recyclarview , parent,false);
 
         return new viewHolder(view);
-    }public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.singlelayout, parent, false);
-        //or//
-        // View view1 = LayoutInflater.from(parent.getContext()).inflate(R.layout.singlelayout,parent,false);
-        //View view = LayoutInflater.from(context).inflate(R.layout.sample_recyclarview , parent,false);
-
-        return new viewHolder(view);
-    }public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.singlelayout, parent, false);
-        //or//
-        // View view1 = LayoutInflater.from(parent.getContext()).inflate(R.layout.singlelayout,parent,false);
-        //View view = LayoutInflater.from(context).inflate(R.layout.sample_recyclarview , parent,false);
-
-        return new viewHolder(view);
     }
 
     @Override
