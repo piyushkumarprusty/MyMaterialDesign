@@ -19,6 +19,22 @@ import com.example.android.myapplication.R;
             this.data = data;
         }
 
+        @NonNull
+        @Override
+        public viewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
+            return null;
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull myAdapter.viewHolder holder, int position) {
+
+        }
+
+        @Override
+        public int getItemCount() {
+            return 0;
+        }
+
 //        @NonNull
 //    @Override
 //    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
