@@ -28,6 +28,7 @@ public class AnimationImg extends AppCompatActivity {
             public void onClick(View v) {
 
                 YoYo.with(Techniques.FadeOutLeft).duration(7000).repeat(0).playOn(img);
+
             }
         });
     }

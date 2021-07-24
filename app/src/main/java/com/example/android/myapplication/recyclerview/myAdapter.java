@@ -6,21 +6,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.myapplication.R;
 
-    public class myAdapter extends RecyclerView.Adapter {
-         
-    @NonNull
+    public class myAdapter extends RecyclerView.Adapter<myAdapter.viewHolder> {
+
+        String data[];
+
+        public myAdapter(String[] data) {
+            this.data = data;
+        }
+
+        @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
         return null;
 
     }
 
+
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder , int position) {
 
     }
 
