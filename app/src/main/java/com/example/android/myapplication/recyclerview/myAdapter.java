@@ -1,5 +1,6 @@
 package com.example.android.myapplication.recyclerview;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -22,7 +23,9 @@ import com.example.android.myapplication.R;
         @NonNull
         @Override
         public viewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
-            return null;
+            LayoutInflater inflater =LayoutInflater.from(parent.getContext());
+            View view =inflater.inflate(R.layout.singlelayout,parent,false);
+            return  new viewHolder(view);
         }
 
         @Override
